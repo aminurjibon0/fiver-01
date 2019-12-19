@@ -1,0 +1,45 @@
+/******* global end ********/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+section {
+    padding: 40px 0;
+    background-color: #f0ffed;
+}
+.header-img img {
+    max-width: 300px;
+    margin-bottom: 1.5rem !important;
+}
+.single-icon i {
+    color: #1ea233;
+    border: solid 2px #24af33;
+    padding: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+.single h3 {
+    font-size: 20px;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.single p {
+    font-size: 16px;
+}
